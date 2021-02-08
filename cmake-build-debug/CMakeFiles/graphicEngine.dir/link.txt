@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -g   CMakeFiles/graphicEngine.dir/main.cpp.o CMakeFiles/graphicEngine.dir/Engine.cpp.o CMakeFiles/graphicEngine.dir/Shader.cpp.o CMakeFiles/graphicEngine.dir/Object.cpp.o CMakeFiles/graphicEngine.dir/Light.cpp.o  -o graphicEngine  -lGL -lglfw -lGLEW 
