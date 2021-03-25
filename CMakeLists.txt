@@ -8,4 +8,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0")
 
 add_executable(graphicEngine main.cpp Engine.cpp Engine.h Shader.h Shader.cpp Object.cpp Object.h Camera.h Light.h Light.cpp)
 
-target_link_libraries(graphicEngine GL glfw GLEW)
+find_package(glfw3 REQUIRED)
+find_package(GLEW REQUIRED)
+target_link_libraries(graphicEngine glfw GLEW::GLEW)
